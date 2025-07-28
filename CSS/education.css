@@ -1,0 +1,78 @@
+.education {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+
+.education-text {
+    color: #EAE4D5;
+    margin-right: 30px;
+}
+
+.education-text-kampus {
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.education-text-jurusan {
+    font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.education-text-waktu {
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.education-image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.education-image div {
+    position: relative;
+    background-color: #948979;
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.education-image img {
+    position: absolute;
+    bottom: 0;
+    width: 270px;
+    border-bottom-left-radius: 135px;
+    border-bottom-right-radius: 135px;
+}
+
+.education-image a {
+    text-decoration: none;
+}
+
+.education-image p {
+    font-size: 18px;
+    color: #EAE4D5;
+    margin: 0;
+    transition: box-shadow 0.15s;
+}
+
+.education-image p:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.background {
+    width: 100%;
+    height: 510px;
+    position: relative;
+}
+
+.background img {
+    position: absolute;
+    top: 0;
+}

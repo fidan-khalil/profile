@@ -1,0 +1,101 @@
+.page-committee {
+    width: 100%;
+    border-top: solid;
+    border-bottom: solid;
+    border-top-color: transparent;
+    border-bottom-color: #948979;
+    scroll-margin-top: 68px;
+}
+
+.committee-experience {
+    color: #DFD0B8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #333446;
+    border-radius: 20px;
+    margin: 40px 240px;
+}
+
+.committee-experience-title {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.committee-experience-title-divisi {
+    font-weight: 700;
+    margin: 0;
+}
+
+.committee-experience-title-fakultas {
+    font-size: 15px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+.committee-experience-title-number {
+    background-color: #DFD0B8;
+    color: #333446;
+    font-size: 25px;
+    padding: 7px 15px;
+    border-radius: 40px;
+    margin-right: 12px;
+}
+
+.page-committee-title {
+    color: #DFD0B8;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+    text-align: center;
+}
+
+.committee-experience-image1 {
+    display: flex;
+    justify-content: center;
+}
+
+.committee-experience-image1 img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    object-position: bottom;
+    margin: 20px 30px;
+}
+
+.committee-experience-text {
+    margin-bottom: 40px;
+}
+
+
+.committee-experience-text-isi {
+    font-size: 14px;
+    width: 700px;
+    margin-top: 8px;
+    margin-bottom: 0;
+    margin-left: 7px;
+    line-height: 1.35;
+}
+
+
+.committee-experience-image2 {
+    margin: 20px;
+}
+
+.committee-experience-image2 img{
+    width: 350px;
+}
+
+.committee-experience-image3 {
+    display: flex;
+    justify-content: center;
+}
+
+.committee-experience-image3 img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    object-position: bottom;
+    margin: 20px 30px;
+}

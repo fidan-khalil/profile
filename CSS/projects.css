@@ -1,0 +1,36 @@
+.page-projects {
+    width: 100%;
+    height: 600px;
+    border-top: solid;
+    border-bottom: solid;
+    border-top-color: transparent;
+    border-bottom-color: #948979;
+    scroll-margin-top: 68px;
+}
+
+.project1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project1 img {
+    width: 800px;
+}
+
+.project1 a {
+    text-decoration: none;
+}
+
+.project1 p {
+    color: #222831;
+    background-color: #948979;
+    padding: 8px 16px;
+    transition: margin 0.15s, padding 0.15s, opacity 0.15s;
+}
+
+.project1 p:hover {
+    margin: 12px -4px;
+    padding: 12px 20px;
+    opacity: 0.7;
+}
