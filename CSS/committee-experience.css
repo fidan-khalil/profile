@@ -5,6 +5,9 @@
     border-top-color: transparent;
     border-bottom-color: #948979;
     scroll-margin-top: 68px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .committee-experience {
@@ -14,7 +17,8 @@
     align-items: center;
     background-color: #333446;
     border-radius: 20px;
-    margin: 40px 240px;
+    padding: 0 30px;
+    margin: 20px;
 }
 
 .committee-experience-title {
