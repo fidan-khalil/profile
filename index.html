@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Fidan Khalil Salman
+    </title>
+    <link href="src/output.css" rel="stylesheet">
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+
+    <link rel="stylesheet" href="CSS/general.css">
+    <!-- <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/personal-information.css">
+    <link rel="stylesheet" href="CSS/education.css">
+    <link rel="stylesheet" href="CSS/committee-experience.css">
+    <link rel="stylesheet" href="CSS/skills.css">
+    <link rel="stylesheet" href="CSS/projects.css"> -->
+  </head>
+
+  <body>
+    <div class="flex bg-[#222831] justify-evenly fixed top-0 left-0 right-0 
+      h-15 items-center px-[20%] text-[#DFD0B8] z-100"
+    >
+      <a href="#personal-information">
+        <p class="mx-1 text-center hover:shadow">
+          Personal Information
+        </p>
+      </a>
+      
+      <a href="#education">
+        <p class="mx-1 text-center hover:shadow">
+          Education
+        </p>
+      </a>
+      
+      <a href="#committee-experience">
+        <p class="mx-1 text-center hover:shadow">
+          Committee Experience
+        </p>
+      </a>
+      
+      <a href="#skills">
+        <p class="mx-1 text-center hover:shadow">
+          Skills
+        </p>
+      </a>
+      
+      <a href="#projects">
+        <p class="mx-1 text-center hover:shadow">
+          Projects
+        </p>
+      </a>
+    </div>
+
+    <div id="personal-information" 
+      class="border border-black w-[100%] h-[510px] scroll-mt-[68px]"
+    >
+      <div class="border border-black flex justify-center items-center mt-[80px]">
+        <div class="border border-black relative w-[230px] mr-[20px] flex flex-col justify-center">
+          <div class="border border-black w-[230px] h-[230px] bg-[#948979] rounded-[50%]"></div>
+          <img class="w-[230px] absolute left-0 bottom-[84px] rounded-[115px]"
+            src="Image/Photo/foto-profile.png"
+          >
+          <div class="border border-black mt-[20px] flex justify-center">
+            <a href="https://www.linkedin.com/in/fidan-salman/" 
+              target="_blank"
+            >
+              <img class="w-[30px] mx-[4px]" 
+                src="Image/Logo/InBug-White.png"
+              >
+            </a>
+
+            <a href="https://github.com/fidan-khalil" 
+              target="_blank"
+            >
+              <img class="w-[30px] mx-[4px]" 
+                src="Image/Logo/github-mark-white.png"
+              >
+            </a>
+
+            <a href="https://www.instagram.com/fdnkhllslmn?igsh=aTE2bGFlNTRzd2Zs" 
+              target="_blank"
+            >
+              <img class="w-[30px] mx-[4px]" 
+                src="Image/Logo/Instagram_Glyph_White.png"
+              >
+            </a>
+          </div>
+          <p class="text-[#EAE4D5] mt-[10px] text-center">
+            fidankhalilsi24@gmail.com
+          </p>
+        </div>
+
+        <div class="border border-black w-[600px] text-[#EAE4D5]">
+          <p class="text-[24px]">
+            HALO,
+          </p>
+          <p class="text-[30px] font-[700] mt-[5px]">
+            Nama saya Fidan Khalil Salman
+          </p>
+          <p class="text-[18px] leading-[1.5] mt-[14px] mb-[20px] text-justify">
+            Mahasiswa Sistem Informasi yang antusias dalam pengembangan web dan
+            pemrograman. Memiliki kemampuan dasar HTML, CSS, JavaScript, Java, dan Python.
+          </p>
+          <a href="CV.pdf" download 
+            class="bg-[#948979] border-[none] py-[8px] px-[20px] text-[#222831] ml-[2px] transition-all 
+            hover:opacity-70 hover:py-[10px] hover:px-[24px] hover:ml-0"
+          >
+              Download CV
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="education" 
+      class="w-[100%] h-[510px] scroll-mt-[78px]"
+    >
+      <p class="text-[#DFD0B8] text-[30px] font-[700] text-center">
+        EDUCATION
+      </p>
+      <div class="flex justify-center items-center mt-[40px]">
+        <div class="text-[#EAE4D5] mr-[30px]">
+          <p class="text-[24px] font-[700]">
+            Universitas Indonesia
+          </p>
+          <p class="text-[20px] mt-[10px]">
+            Sistem Informasi, Fakultas Ilmu Komputer
+          </p>
+          <p class="mt-[15px]">
+            2024 - Sekarang
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center">
+          <div class="relative bg-[#948979] w-[270px] h-[270px] rounded-[135px] mb-[10px]">
+            <img class="absolute bottom-0 w-[270px] rounded-[135px]" 
+              src="Image/Photo/Gedung_Rektorat_Universitas_Indonesia-removebg-preview.png"
+            >
+          </div>
+          <a href="https://cs.ui.ac.id/" 
+            target="_blank"
+          >
+            <p class="text-[#EAE4D5] text-[18px] transition-all hover:shadow">
+              cs.ui.ac.id
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div id="committee-experience" 
+      class="w-[100%] scroll-mt-[78px] flex flex-col items-center"
+    >
+      <p class="text-[#DFD0B8] text-[30px] font-[700] text-center">
+        COMMITTEE EXPERIENCE
+      </p>
+      <div class="text-[#DFD0B8] flex flex-col items-center bg-[#333446] 
+        rounded-3xl px-[30px] m-[20px]"
+      >
+        <div class="flex items-center mt-[20px]">
+          <div class="bg-[#DFD0B8] text-[#333446] text-[25px] 
+            py-[7px] px-[18px] mr-[12px] rounded-[50%]"
+          >
+            1
+          </div>
+          <div>
+            <p class="font-[700]">
+              Mentor - Open House Fasilkom UI 2024
+            </p>
+            <p class="text-[15px] my-[6px]">
+              Fakultas Ilmu Komputer UI | 23 November 2024
+            </p>
+          </div>
+        </div>
+
+        <div class="flex justify-center">
+          <img class="w-[300px] h-[250px] object-cover object-bottom my-[20px] mx-[30px]" 
+            src="Image/Photo/open-house1.jpg"
+          >
+          <img class="w-[300px] h-[250px] object-cover object-bottom my-[20px] mx-[30px]" 
+            src="Image/Photo/open-house2.jpg"
+          >
+        </div>
+
+        <div class="mb-[40px]">
+          <p class="text-[14px] w-[700px] mt-[8px] mb-0 ml-[7px] leading-[1.35]">
+            &bull; Memperkenalkan Fasilkom UI kepada peserta acara, termasuk program studi,
+            kegiatan kemahasiswaan, dan budaya akademik
+          </p>
+          <p class="text-[14px] w-[700px] mt-[8px] mb-0 ml-[7px] leading-[1.35]">
+            &bull; Menjawab pertanyaan peserta terkait perkuliahan, jalur masuk, serta kehidupan kampus
+          </p>
+        </div>
+      </div>
+
+      <div class="text-[#DFD0B8] flex flex-col items-center bg-[#333446] rounded-3xl px-[30px] m-[20px]">
+        <div class="flex items-center mt-[20px]">
+          <div class="bg-[#DFD0B8] text-[#333446] text-[25px] py-[7px] px-[18px] mr-[12px] rounded-[50%]">
+            2
+          </div>
+          <div>
+            <p class="font-[700]">
+              Mentor & Peserta - BETIS (Belajar Gratis) Fasilkom UI 2025
+            </p>
+            <p class="text-[15px] my-[6px]">
+              Fakultas Ilmu Komputer UI | Januari - Juni 2025
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <img class="w-[300px] h-[250px] object-cover object-bottom my-[20px] mx-[30px]" 
+            src="Image/Photo/betis1.jpg"
+          >
+        </div>
+
+        <div class="mb-[40px]">
+          <p class="text-[14px] w-[700px] mt-[8px] mb-0 ml-[7px] leading-[1.35]">
+            &bull; Melaksanakan sesi mentoring untuk membahas topik seputar dunia perkuliahan, 
+            termasuk tips memilih jurusan, strategi UTBK, dan cara beradaptasi di bangku kuliah
+          </p>
+          <p class="text-[14px] w-[700px] mt-[8px] mb-0 ml-[7px] leading-[1.35]">
+            &bull; Membimbing dan memantau perkembangan peserta dalam persiapan masuk perguruan tinggi negeri,
+            mulai dari jalur SNBP, SNBT, hingga ujian mandiri
+          </p>
+          <p class="text-[14px] w-[700px] mt-[8px] mb-0 ml-[7px] leading-[1.35]">
+            &bull; Menjadi tempat konsultasi dan dukungan akademik maupun mental bagi peserta selama program berlangsung
+          </p>
+        </div>
+      </div>
+        
+      <div class="text-[#DFD0B8] flex flex-col items-center bg-[#333446] rounded-3xl px-[30px] m-[20px]">
+        <div class="flex items-center mt-[20px]">
+          <div class="bg-[#DFD0B8] text-[#333446] text-[25px] py-[7px] px-[18px] mr-[12px] rounded-[50%]">
+            3
+          </div>
+          <div>
+            <p class="font-[700]">
+              Staf Divisi Acara - COMPFEST 17
+            </p>
+            <p class="text-[15px] my-[6px]">
+              Universitas Indonesia | April - November 2025
+            </p>
+          </div>
+        </div>
+        <div class="flex justify-center">
+          <img class="w-[300px] h-[250px] object-cover object-bottom my-[20px] mx-[30px]" 
+            src="Image/Photo/compfest1.jpg"
+          >
+          <img class="w-[300px] h-[250px] object-cover object-bottom my-[20px] mx-[30px]" 
+            src="Image/Photo/compfest2.jpg"
+          >
+        </div>
+
+        <div class="mb-[40px]">
+          <p class="text-[14px] w-[700px] mt-[8px] mb-0 ml-[7px] leading-[1.35]">
+            &bull; Merancang konsep dan menyusun rundown untuk acara 
+              <i>
+                Road to Main Event
+              </i> 
+            COMPFEST 17
+          </p>
+          <p class="text-[14px] w-[700px] mt-[8px] mb-0 ml-[7px] leading-[1.35]">
+            &bull; Berkoordinasi dengan berbagai divisi seperti Marcom, Operasional, dan Kreatif
+            untuk memastikan jalannya acara yang lancar dan terintegrasi
+          </p>
+          <p class="text-[14px] w-[700px] mt-[8px] mb-0 ml-[7px] leading-[1.35]">
+            &bull; Mengelola kebutuhan teknis seperti venue, alat pendukung, serta timeline pelaksanaan
+          </p>
+          <p class="text-[14px] w-[700px] mt-[8px] mb-0 ml-[7px] leading-[1.35]">
+            &bull; Terlibat aktif dalam diskusi ide untuk menghadirkan pengalaman acara yang menarik
+            dan interaktif bagi peserta
+          </p>
+        </div>
+      </div>
+    </div>
+    
+    <div id="skills" 
+      class="w-[100%] scroll-mt-[78px] flex flex-col items-center"
+    >
+      <p class="text-[#DFD0B8] text-[30px] font-[700] text-center">
+        SKILLS
+      </p>
+      <div>
+        <div class="flex justify-center mt-[60px] mb-[20px]">
+          <img class="w-[110px] mx-[20px]" 
+            src="Image/Logo/html.png"
+          >
+          <img class="w-[110px] mx-[20px]" 
+            src="Image/Logo/css-3.png"
+          >
+          <img class="w-[110px] mx-[20px]" 
+            src="Image/Logo/java.png"
+          >
+          <img class="w-[110px] mx-[20px]" 
+            src="Image/Logo/python.png"
+          >
+        </div>
+
+        <div class="flex justify-center mt-[60px] mb-[20px]">
+          <img class="w-[110px] mx-[20px]" 
+            src="Image/Logo/canva.png"
+          >
+          <img class="w-[110px] mx-[20px]" 
+            src="Image/Logo/figma.png"
+          >
+        </div>
+      </div>
+    </div>
+  
+    <div id="projects" 
+      class="w-[100%] h-[600px] scroll-mt-[78px] flex flex-col items-center"
+    >
+      <p class="text-[#DFD0B8] text-[30px] font-[700] text-center">
+        PROJECTS
+      </p>
+      <div>
+        <div class="flex flex-col items-center">
+          <img class="w-[800px]" 
+            src="Image/Photo/youtube-clone.jpg"
+          >
+          <a href="https://fidan-khalil.github.io/youtube-clone/HTML/youtube-clone.html" 
+            target="_blank"
+          >
+            <p class="text-[#222831] bg-[#948979] my-[16px] py-[8px] px-[16px] transition-all 
+              hover:my-[12px] hover:mx-[-4px] hover:py-[12px] hover:px-[20px] hover:opacity-70"
+            >
+              Youtube Clone
+            </p>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
